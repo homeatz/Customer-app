@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "266536830153",
+    "project_id": "homeatz-partner",
+    "storage_bucket": "homeatz-partner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266536830153:android:07e8d1a62459dafcbcb918",
+        "android_client_info": {
+          "package_name": "com.application.homeatz_business"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266536830153-dgrc53epgn7mdpv1n5u7r514cbhe3512.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGSoXUU7tCipa10efIIvpyCED6_DctCuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266536830153-dgrc53epgn7mdpv1n5u7r514cbhe3512.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266536830153:android:198dc4f1b506cce1bcb918",
+        "android_client_info": {
+          "package_name": "project.application.homeatz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266536830153-dgrc53epgn7mdpv1n5u7r514cbhe3512.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGSoXUU7tCipa10efIIvpyCED6_DctCuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266536830153-dgrc53epgn7mdpv1n5u7r514cbhe3512.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

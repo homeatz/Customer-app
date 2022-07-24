@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_5sdp"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/chooseAddress_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:orientation="vertical"
+            android:background="#ADD8E6">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="@string/choose_delivery_address"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/roboto_black"/>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chooseAddress_ll"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp"
+            tools:listitem="@layout/row_address"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <Button
+            android:id="@+id/proceed_btn"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/recyclerView"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
+            android:state_pressed="true"
+            android:text="@string/proceed"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            style="?android:button"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

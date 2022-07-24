@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/seller_cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/ivstoreImg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/ProductImg"
+            android:scaleType="fitXY"
+            android:src="@drawable/food" />
+
+        <LinearLayout
+            android:id="@+id/lay_1"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ivstoreImg"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tvStoreName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Store Name"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvStoreRating"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:padding="3dp"
+                android:text="Reviews"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvStoreAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_1"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ivstoreImg"
+            android:padding="3dp"
+            android:text="Kolkata"
+            android:textColor="@color/colorGray"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rl"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorGray"
+        android:padding="4dp"
+        android:visibility="gone" />
+
+</androidx.cardview.widget.CardView>

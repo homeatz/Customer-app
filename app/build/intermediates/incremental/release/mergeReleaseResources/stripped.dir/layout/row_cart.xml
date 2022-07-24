@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/itemLayout"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/removeCartItem_iv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/deleteicon"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/ivProductImg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/ProductImg"
+            android:scaleType="fitXY"
+            tools:src="@drawable/food" />
+
+        <TextView
+            android:id="@+id/tvStoreName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/ivProductImg"
+            android:padding="3dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap"
+            tools:text="Store Name" />
+
+        <TextView
+            android:id="@+id/tvFoodType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvStoreName"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ivProductImg"
+            android:padding="3dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="Food type" />
+
+        <TextView
+            android:id="@+id/tvAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvFoodType"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ivProductImg"
+            android:padding="3dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="Available : 0" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/veg_img"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/veg"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/nonVeg_img"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/nonveg"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tvFoodName"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:autoSizeMaxTextSize="@dimen/_10sdp"
+                android:autoSizeMinTextSize="@dimen/_8sdp"
+                android:autoSizeStepGranularity="@dimen/_2sdp"
+                android:autoSizeTextType="uniform"
+                android:ellipsize="end"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                tools:text="Food Name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/_8sdp">
+
+            <TextView
+                android:id="@+id/cartQty_tv"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/thin_border"
+                android:enabled="false"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="3dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"
+                tools:text="1" />
+
+            <Button
+                android:id="@+id/btnIncrease"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/thin_border"
+                android:text="@string/plus"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDecrease"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/thin_border"
+                android:text="@string/minus"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/price_txtV"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:autoSizeStepGranularity="2sp"
+                android:textStyle="bold"
+                tools:text="₹120" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorGray"
+        android:padding="4dp" />
+
+</RelativeLayout>

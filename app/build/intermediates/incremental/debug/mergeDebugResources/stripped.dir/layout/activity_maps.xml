@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Map.MapsActivity">
+
+    <LinearLayout
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout">
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".UnusedClass.MapsActivity"
+            tools:ignore="FragmentTagUsage" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/top_corner_round_white_bg"
+        android:elevation="@dimen/_2sdp"
+        android:orientation="vertical"
+        android:padding="@dimen/_12sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:text="@string/delivery_location"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_11sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_locationhome"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tvLocality"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold"
+                tools:text="Demo Location" />
+
+            <TextView
+                android:id="@+id/change_txtV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/change_btn_bg"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingTop="@dimen/_6sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:text="@string/change"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvFullAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_10sdp"
+            tools:text="Demo full address" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:background="@drawable/orange_round_corner_bg"
+            android:elevation="@dimen/_2sdp"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/confirm_location"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <ImageView
+        android:onClick="back"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:src="@drawable/ic_back_arrow"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/white_round_bg"
+        android:tint="@color/dark_gray"
+        android:elevation="@dimen/_5sdp"
+        android:layout_margin="@dimen/_12sdp"
+        tools:ignore="ContentDescription,UseAppTint" />
+
+</RelativeLayout>

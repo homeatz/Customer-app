@@ -1,0 +1,133 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'  // Google Services plugin
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 32
+    defaultConfig {
+        applicationId "project.application.homeatz"
+        multiDexEnabled true
+        minSdkVersion 26
+        targetSdkVersion 32
+        versionCode 12
+        versionName "2.0.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    project.ext { appName = 'Homeatz' }
+                    def formattedDate = new Date().format('dd-MM-yyyy')
+                    def newName = output.outputFile.name
+                    newName = newName.replace("app-", "$project.ext.appName-") //"MyAppName" -> I set my app variables in the root project
+                    newName = newName.replace("-release", "-release" + formattedDate)
+                    variant.outputs.all {
+                        outputFileName = "${variant.name}-${variant.versionName}Homeatz.apk"
+                    }
+                }
+            }
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    project.ext { appName = 'Homeatz' }
+                    def formattedDate = new Date().format('dd-MM-yyyy')
+                    def newName = output.outputFile.name
+                    newName = newName.replace("app-", "$project.ext.appName-") //"MyAppName" -> I set my app variables in the root project
+                    newName = newName.replace("-debug", "-debug" + formattedDate)
+                    variant.outputs.all {
+                        outputFileName = "Homeatz_${variant.versionName}_" + formattedDate + ".apk"
+                    }
+                }
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '30.0.3'
+    buildFeatures {
+        viewBinding true
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.2'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    // glide library
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    implementation 'com.google.android.gms:play-services-location:20.0.0'
+    implementation 'com.google.android.libraries.places:places:2.6.0'
+
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'com.github.mahimrocky:ShowMoreText:1.0.2'
+    implementation 'com.orhanobut:dialogplus:1.11@aar'
+
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.synnapps:carouselview:0.1.5'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.tuyenmonkey:mkloader:1.4.0'
+
+    implementation 'com.github.Mindinventory:VanillaPlacePicker:0.0.7'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.23'
+    implementation 'com.github.ome450901:SimpleRatingBar:1.5.1'
+
+    //pager indicator
+    implementation 'com.tbuonomo:dotsindicator:4.2'
+
+    implementation 'com.razorpay:checkout:1.6.21'
+
+    implementation 'com.airbnb.android:lottie:2.7.0'
+    implementation 'com.github.mayuce:LottieAlertDialog:1.1'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+
+    // For Java users  import the for Play Core:
+    implementation 'com.google.android.play:core:1.10.3'
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:28.2.1')
+
+    // Declare the dependencies for the Firebase Cloud Messaging and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.applikeysolutions:cosmocalendar:1.0.4'
+
+    implementation 'com.applandeo:material-calendar-view:1.7.0'
+}

@@ -1,0 +1,1118 @@
+[
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_health_diet_plan.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_health_diet_plan.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_subscription_border_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/subscription_border_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_check_mark.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_check_mark.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_edit_account_layout.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/edit_account_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_main_header_layout.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/main_header_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_logout.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/xml_network_security_config.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_welcome1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/welcome1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_black.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_black.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_odia.jpg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/odia.jpg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_yellow_btn_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/yellow_btn_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_main.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_thin.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_thin.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/color_button_text.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/color/button_text.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_custom_calendar_layout.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/custom_calendar_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_savedloc_bg.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/savedloc_bg.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxxhdpi_notification_icon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxxhdpi/notification_icon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_roundcorner_greenbg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/roundcorner_greenbg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/raw_notification_sound.wav.flat",
+        "source": "project.application.homeatz.app-main-8:/raw/notification_sound.wav"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_home_banner_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/home_banner_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_subscription_product_list_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/subscription_product_list_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_cart.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_black_italic.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_black_italic.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_gray_border_rect_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/gray_border_rect_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxhdpi_ic_drop_down.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxhdpi/ic_drop_down.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_bottom_sheet_address.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/bottom_sheet_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_orange_boarder_rect_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/orange_boarder_rect_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-v24_start_empty.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-v24/start_empty.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_thin_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_thin_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_location.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-mdpi_ic_menu.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-mdpi/ic_menu.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_thin_italic.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_thin_italic.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_light.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_light.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_extra_bold.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_extra_bold.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_subscription_product_list.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_subscription_product_list.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_home_made_banner.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/home_made_banner.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_subs_details.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_subs_details.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_ic_product_cart.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/ic_product_cart.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/navigation_mobile_navigation2.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/navigation/mobile_navigation2.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxhdpi_notification_icon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxhdpi/notification_icon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_calendar_header.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/calendar_header.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_homeatz_app_logo.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/homeatz_app_logo.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_ic_menu.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/ic_menu.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_orange_round_corner_bg2.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/orange_round_corner_bg2.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_black_boarder_rect_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/black_boarder_rect_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxhdpi_browse_home_chefs.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxhdpi/browse_home_chefs.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_login.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_login.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_medium_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_medium_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_notification_icon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/notification_icon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-anydpi_ic_drop_down.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-anydpi/ic_drop_down.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_arrow_point_to_right.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_arrow_point_to_right.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxhdpi_welcome3.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxhdpi/welcome3.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_download1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/download1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_light.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_light.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_veg.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/veg.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_bold_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_bold_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_icon23.jpeg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/icon23.jpeg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_appicon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/appicon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_discount.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_discount.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_item_search.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/item_search.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_home.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_user_circle_light_green.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_user_circle_light_green.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_savedloc_bg1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/savedloc_bg1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppin_extra_bold_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppin_extra_bold_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_orange_btn_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/orange_btn_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_description_popup.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/description_popup.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/navigation_mobile_navigation.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_add_btn_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/add_btn_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_medium_italic.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_medium_italic.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/menu_sort_menu.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/menu/sort_menu.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_foodbg.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/foodbg.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_saved_location.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_saved_location.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_home_made.jpeg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/home_made.jpeg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/menu_bottom_nav_menu.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_thin.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_thin.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_light_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_light_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_cart_order_details.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_cart_order_details.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_locatiion_home.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/locatiion_home.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_order_details_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/order_details_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_find_location.gif.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/find_location.gif"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_brown_curve_corner_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/brown_curve_corner_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_dashboard.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_region_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/region_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_bengali.jpg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/bengali.jpg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_sign.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/sign.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_slider2.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/slider2.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_choose_location_popup.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/choose_location_popup.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_italic.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_italic.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxxhdpi_dash_line_back.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxxhdpi/dash_line_back.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_product_list.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_product_list.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_row_address.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/row_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_light_red_circle.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/light_red_circle.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_bold.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_tracking.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/tracking.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-mdpi_notification_icon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-mdpi/notification_icon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_badge_design.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/badge_design.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_black_rect_corner_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/black_rect_corner_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_plan_choose.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_plan_choose.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_welcome2.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/welcome2.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_gps.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_gps.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_notification_icon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/notification_icon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_roundcorner_border.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/roundcorner_border.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_retaurant_reviews.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_retaurant_reviews.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_marathi.jpg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/marathi.jpg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_semi_bold.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_semi_bold.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_account.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_button_color.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/button_color.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_plans_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/plans_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_easy_meal_plan.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_easy_meal_plan.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-v24_deleteicon.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-v24/deleteicon.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_green_border_rect_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/green_border_rect_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_subs_summary_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/subs_summary_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_menu2.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/menu2.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_side_nav_bar.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_nav_header_navigation.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/nav_header_navigation.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_notifications.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-anydpi_ic_menu.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-anydpi/ic_menu.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_browse_home_chefs.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/browse_home_chefs.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_login_top_bg.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/login_top_bg.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_splash.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/splash.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_banner1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/banner1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_tamil_nadu.jpg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/tamil_nadu.jpg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_photo.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/photo.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_punjab.jpg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/punjab.jpg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-mdpi_browse_home_chefs.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-mdpi/browse_home_chefs.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_grey_back_strock.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/grey_back_strock.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_light_italic.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_light_italic.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_drop_down_icon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/drop_down_icon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_content_home.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/content_home.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_white_round_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/white_round_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_edit_back.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/edit_back.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_maps.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_search.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_ic_drop_down.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/ic_drop_down.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_faq_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/faq_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/anim_slide_down.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/anim/slide_down.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_restaurant.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_restaurant.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_empty_box.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/empty_box.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_locationhome.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_locationhome.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_user_icon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/user_icon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_order_hist_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/order_hist_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxhdpi_welcome1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxhdpi/welcome1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_curve_corner_white_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/curve_corner_white_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_row_state.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/row_state.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_slider3.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/slider3.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_bg_otp_stroke.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/bg_otp_stroke.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_orange_round_corner_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/orange_round_corner_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-mdpi_welcome2.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-mdpi/welcome2.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_select_location.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_select_location.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxxhdpi_welcome2.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxxhdpi/welcome2.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_welcome1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/welcome1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_row_seller.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/row_seller.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxxhdpi_browse_home_chefs.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxxhdpi/browse_home_chefs.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_ic_menu.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/ic_menu.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_verification.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_verification.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_user.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_user.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_button_selector.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/button_selector.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_back_icon2.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/back_icon2.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_regular.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_row_manage_address.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/row_manage_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_welcome2.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/welcome2.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-mdpi_welcome3.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-mdpi/welcome3.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxxhdpi_welcome3.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxxhdpi/welcome3.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_medium.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_medium.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_product_list_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/product_list_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_restaurant_review_row.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/restaurant_review_row.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_round.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/round.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_bihar.jpg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/bihar.jpg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_cart.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_cart.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_back_arrow.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/back_arrow.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_custom_progress_dialog.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/custom_progress_dialog.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_nonveg.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/nonveg.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_black_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_black_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_subscription_hist_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/subscription_hist_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_empty_cart1.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/empty_cart1.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_tick.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_tick.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_welcome.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_home_made_2.jpeg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/home_made_2.jpeg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_close.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/close.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_rating_star.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_rating_star.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_backg.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/backg.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_custom_toolbar2.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/custom_toolbar2.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/xml_file_paths.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/xml/file_paths.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ratings.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ratings.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_faq.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_faq.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_top_corner_round_white_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/top_corner_round_white_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxhdpi_welcome2.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxhdpi/welcome2.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_search.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_locationbg.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/locationbg.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_homeaztz_gif.gif.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/homeaztz_gif.gif"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_vertical_dash_line.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/vertical_dash_line.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/menu_navigation.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/menu/navigation.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_points_layout.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/points_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/navigation_nav_graph.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_assamese.jpg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/assamese.jpg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_mail.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_mail.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_ic_drop_down.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/ic_drop_down.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_semi_bold_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_semi_bold_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_enter.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_enter.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_rect_two_color.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/rect_two_color.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_drop_down.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/drop_down.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-v24_star_filled.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-v24/star_filled.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxxhdpi_welcome1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxxhdpi/welcome1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_bottom_sheet_dialog.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-mdpi_welcome1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-mdpi/welcome1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_thin_border.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/thin_border.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_welcome3.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/welcome3.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_review.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_review.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_add_address.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_add_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_bold.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_bold.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_regular.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_regular.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_edit_back_with_solid_white.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/edit_back_with_solid_white.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xhdpi_welcome3.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xhdpi/welcome3.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_slider1.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/slider1.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_sort_icon.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/sort_icon.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_extra_light_italic.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_extra_light_italic.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_splash_screen.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_customer_stories.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_customer_stories.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_black.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_black.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_change_btn_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/change_btn_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/anim_slide_up.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/anim/slide_up.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_order_details.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_order_details.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-xxhdpi_ic_menu.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-xxhdpi/ic_menu.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_homemade_product_list_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/homemade_product_list_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_fragment_home_made_product.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/fragment_home_made_product.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_back_iv.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/back_iv.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_roundcorner_skybg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/roundcorner_skybg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_down_arrow.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/down_arrow.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/menu_activity_main_drawer.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-hdpi_browse_home_chefs.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-hdpi/browse_home_chefs.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_emptycart.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/emptycart.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_subs_details_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/subs_details_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_dash_line_back2.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/dash_line_back2.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_medium.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_medium.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_roboto_bold_italic.ttf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/roboto_bold_italic.ttf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_row_cart.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/row_cart.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_add.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/add.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_activity_manage_address.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/activity_manage_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_homemade_shop.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_homemade_shop.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_test_layout.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/test_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "project.application.homeatz.app-main-8:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_menu_camera.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/font_poppins_extra_light.otf.flat",
+        "source": "project.application.homeatz.app-main-8:/font/poppins_extra_light.otf"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_right_arrow.webp.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/right_arrow.webp"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_back_arrow.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_back_arrow.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_best_seller_item.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/best_seller_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable-mdpi_ic_drop_down.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable-mdpi/ic_drop_down.png"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/layout_custom_toolbar.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/layout/custom_toolbar.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_menu_gallery.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_food.jpg.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/food.jpg"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_ic_pointer.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/ic_pointer.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_roundcorner_bg.xml.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/roundcorner_bg.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-merged_res-6:/drawable_map_pointer.png.flat",
+        "source": "project.application.homeatz.app-main-8:/drawable/map_pointer.png"
+    }
+]

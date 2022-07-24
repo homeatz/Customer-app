@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_12sdp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:abbreviationsBarColor="@color/gray_light"
+        app:abbreviationsLabelsColor="@color/blue"
+        app:daysLabelsColor="@color/black"
+        app:disabledDaysLabelsColor="@color/disable_date_color"
+        app:eventsEnabled="true"
+        app:firstDayOfTheWeek="monday"
+        app:headerColor="@color/light_orange"
+        app:headerLabelColor="@color/white"
+        app:pagesColor="@color/white"
+        app:selectedDayBackgroundColor="@color/colorGray"
+        app:selectionColor="@color/colorRed"
+        app:selectionLabelColor="@color/white"
+        app:type="many_days_picker" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_light"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/reset_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:background="@color/blue"
+            android:text="@string/reset"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11sdp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:background="@color/colorRed"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11sdp" />
+
+        <Button
+            android:id="@+id/ok_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:background="@color/colorGreen"
+            android:text="@string/ok"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11sdp" />
+    </LinearLayout>
+
+</LinearLayout>

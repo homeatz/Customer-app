@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_home.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/region_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/region_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/item_search.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/item_search.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/best_seller_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/best_seller_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/homemade_product_list_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/homemade_product_list_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/subs_summary_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/subs_summary_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/subscription_hist_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/subscription_hist_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/main_header_layout.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/main_header_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_subscription_product_list.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_subscription_product_list.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/nav_header_navigation.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/nav_header_navigation.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_account.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_restaurant.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_restaurant.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_cart.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_dashboard.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/row_address.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/row_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/order_hist_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/order_hist_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/test_layout.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/test_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_maps.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_select_location.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_select_location.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/subs_details_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/subs_details_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/badge_design.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/badge_design.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/custom_calendar_layout.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/custom_calendar_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/bottom_sheet_address.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/bottom_sheet_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/subscription_product_list_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/subscription_product_list_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_main.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_search.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/plans_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/plans_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/description_popup.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/description_popup.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/row_cart.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/row_cart.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_add_address.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_add_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/row_manage_address.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/row_manage_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_cart_order_details.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_cart_order_details.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_retaurant_reviews.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_retaurant_reviews.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/restaurant_review_row.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/restaurant_review_row.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/custom_toolbar.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/custom_toolbar.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_verification.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_verification.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/row_state.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/row_state.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/row_seller.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/row_seller.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_faq.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_faq.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_subs_details.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_subs_details.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_order_details.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_order_details.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_welcome.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_home_made_product.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_home_made_product.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_review.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_review.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_login.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_login.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/bottom_sheet_dialog.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/home_banner_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/home_banner_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_splash_screen.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_saved_location.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_saved_location.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/choose_location_popup.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/choose_location_popup.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/faq_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/faq_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_product_list.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_product_list.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/edit_account_layout.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/edit_account_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/order_details_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/order_details_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/product_list_item.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/product_list_item.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/custom_progress_dialog.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/custom_progress_dialog.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/content_home.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/content_home.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/points_layout.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/points_layout.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/activity_manage_address.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/activity_manage_address.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/custom_toolbar2.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/custom_toolbar2.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_plan_choose.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_plan_choose.xml"
+    },
+    {
+        "merged": "project.application.homeatz.app-mergeReleaseResources-5:/layout/fragment_notifications.xml",
+        "source": "project.application.homeatz.app-main-7:/layout/fragment_notifications.xml"
+    }
+]

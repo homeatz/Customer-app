@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:elevation="0dp">
+
+    <RelativeLayout
+        android:id="@+id/item_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/_8sdp"
+        tools:ignore="RtlSymmetry">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_toStartOf="@+id/rl"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textColor="#8a847d"
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold"
+                    tools:ignore="RelativeOverlap"
+                    tools:text="Baripada Mangso Muri" />
+
+                <TextView
+                    android:id="@+id/ratingTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:background="@drawable/brown_curve_corner_bg"
+                    android:paddingStart="@dimen/_3sdp"
+                    android:paddingTop="@dimen/_1sdp"
+                    android:paddingEnd="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_1sdp"
+                    android:text="3.9*"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    tools:ignore="RelativeOverlap" />
+
+                <ImageView
+                    android:id="@+id/veg_img"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:src="@drawable/veg"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/nonVeg_img"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:src="@drawable/nonveg"
+                    tools:ignore="ContentDescription" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/kitchenName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#bdbbba"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold"
+                tools:text="From Leela's Kitchen" />
+
+            <TextView
+                android:id="@+id/tvRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textColor="@color/colorRed"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="gone"
+                tools:text="₹ 100" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp"
+                        tools:text="No preservative added" />
+
+                    <TextView
+                        android:id="@+id/qtyTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp"
+                        tools:text="Quantity - 250 gm" />
+
+                    <TextView
+                        android:id="@+id/selfLifeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp"
+                        tools:text="Self life - 3 months from packing" />
+
+                    <TextView
+                        android:id="@+id/brandTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp"
+                        tools:text="FASSAI - X123456789" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:background="@drawable/light_red_circle"
+                    android:gravity="center"
+                    android:minWidth="@dimen/_42sdp"
+                    android:minHeight="@dimen/_42sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/marketPriceTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/_8sdp"
+                        tools:text="₹349" />
+
+                    <TextView
+                        android:id="@+id/offerPriceTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        tools:text="₹299" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTimeLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/orange_round_corner_bg2"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_2sdp"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_10sdp"
+                tools:text="Order Now" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_116sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_110sdp"
+                android:layout_height="@dimen/_110sdp"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                app:cardElevation="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/ivProductImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/ProductImg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/foodbg" />
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/addtocart_vtv"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:elevation="@dimen/_6sdp"
+                android:visibility="gone"
+                android:src="@drawable/add"
+                tools:ignore="ContentDescription,RelativeOverlap" />
+
+
+            <LinearLayout
+                android:layout_width="@dimen/_110sdp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:elevation="@dimen/_6sdp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_back_with_solid_white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_3sdp"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/expected_delivery_with_colon"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/_9sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/expectedTimeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:layout_marginEnd="@dimen/_2sdp"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/_9sdp"
+                        android:textStyle="bold"
+                        tools:text="08:00 - 09:00" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <project.application.homeatz.CustomClass.VerticalTextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/add_btn_bg"
+                android:elevation="@dimen/_2sdp"
+                android:gravity="center"
+                android:text="@string/add"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

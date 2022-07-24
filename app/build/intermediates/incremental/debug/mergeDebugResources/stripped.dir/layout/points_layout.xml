@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    android:background="@color/colorWhite"
+    android:layout_margin="@dimen/_15sdp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="My Points"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="@font/roboto_medium" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_italic"
+            android:text="Total  Points"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <TextView
+            android:id="@+id/totalPoints_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/roboto_italic" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_italic"
+            android:text="Grand Total"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <TextView
+            android:id="@+id/grandTotal_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/roboto_italic"/>
+
+    </RelativeLayout>
+
+
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/redeemNow_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/orange_round_corner_bg"
+        android:text="@string/redeem_now"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

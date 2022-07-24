@@ -1,0 +1,661 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="project.application.homeatz"
+4    android:versionCode="12"
+5    android:versionName="2.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:6:5-81
+11-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:8:5-67
+13-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.google.android.libraries.places:places:2.6.0] D:\Android Project\Homeatz\caches\transforms-3\9a07699b526593da6d84680a617ca6f6\transformed\jetified-places-2.6.0\AndroidManifest.xml:10:5-76
+14-->[com.google.android.libraries.places:places:2.6.0] D:\Android Project\Homeatz\caches\transforms-3\9a07699b526593da6d84680a617ca6f6\transformed\jetified-places-2.6.0\AndroidManifest.xml:10:22-73
+15
+16    <queries>
+16-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:11:5-37:15
+17        <intent>
+17-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:12:9-18:18
+18            <action android:name="android.intent.action.VIEW" />
+18-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:13:13-65
+18-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:13:21-62
+19
+20            <data
+20-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:15:13-17:38
+21                android:mimeType="*/*"
+21-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:16:17-39
+22                android:scheme="*" />
+22-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:17:17-35
+23        </intent>
+24        <intent>
+24-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:19:9-28:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:13:13-65
+25-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:13:21-62
+26
+27            <category android:name="android.intent.category.BROWSABLE" />
+27-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:22:13-74
+27-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:22:23-71
+28
+29            <data
+29-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:15:13-17:38
+30                android:host="pay"
+31                android:mimeType="*/*"
+31-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:16:17-39
+32                android:scheme="upi" />
+32-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:17:17-35
+33        </intent>
+34        <intent>
+34-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:29:9-31:18
+35            <action android:name="android.intent.action.MAIN" />
+35-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:90:17-69
+35-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:90:25-66
+36        </intent>
+37        <intent>
+37-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:32:9-36:18
+38            <action android:name="android.intent.action.SEND" />
+38-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:33:13-65
+38-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:33:21-62
+39
+40            <data android:mimeType="*/*" />
+40-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:15:13-17:38
+40-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:16:17-39
+41        </intent>
+42        <!-- Needs to be explicitly declared on Android R+ -->
+43        <package android:name="com.google.android.apps.maps" />
+43-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+43-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+44    </queries> <!-- Include required permissions for Google Maps API to run. -->
+45    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+45-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+45-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+46
+47    <uses-feature
+47-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+48        android:glEsVersion="0x00020000"
+48-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+49        android:required="true" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+49-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+50    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+51    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+51-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:5-77
+51-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:22-74
+52    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+52-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:5-68
+52-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:22-65
+53    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+53-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+53-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+54    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+54-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+54-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+55
+56    <application
+56-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:10:5-128:19
+57        android:allowBackup="true"
+57-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:11:9-35
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.7.0] D:\Android Project\Homeatz\caches\transforms-3\f24d6b3c1e4be11f5bbbd5c469fa82fa\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+59        android:debuggable="true"
+60        android:extractNativeLibs="false"
+61        android:icon="@mipmap/ic_launcher"
+61-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:12:9-43
+62        android:label="@string/app_name"
+62-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:13:9-41
+63        android:networkSecurityConfig="@xml/network_security_config"
+63-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:14:9-69
+64        android:roundIcon="@mipmap/ic_launcher_round"
+64-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:15:9-54
+65        android:supportsRtl="true"
+65-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:16:9-35
+66        android:theme="@style/AppTheme" >
+66-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:17:9-40
+67        <activity
+67-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:18:9-22:56
+68            android:name="project.application.homeatz.Activities.SubsDetailsActivity"
+68-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:19:13-59
+69            android:exported="false"
+69-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:20:13-37
+70            android:screenOrientation="portrait" />
+70-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:21:13-49
+71        <activity
+71-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:23:9-27:56
+72            android:name="project.application.homeatz.Activities.CartOrderDetails"
+72-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:24:13-56
+73            android:exported="false"
+73-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:25:13-37
+74            android:screenOrientation="portrait" />
+74-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:26:13-49
+75        <activity
+75-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:28:9-32:56
+76            android:name="project.application.homeatz.Activities.ManageAddressActivity"
+76-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:29:13-61
+77            android:exported="false"
+77-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:30:13-37
+78            android:screenOrientation="portrait" />
+78-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:31:13-49
+79        <activity
+79-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:33:9-37:56
+80            android:name="project.application.homeatz.Activities.ReviewActivity"
+80-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:34:13-54
+81            android:exported="false"
+81-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:35:13-37
+82            android:screenOrientation="portrait" />
+82-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:36:13-49
+83        <activity
+83-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:38:9-42:56
+84            android:name="project.application.homeatz.Activities.OrderDetailsActivity"
+84-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:39:13-60
+85            android:exported="false"
+85-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:40:13-37
+86            android:screenOrientation="portrait" />
+86-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:41:13-49
+87        <activity
+87-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:43:9-47:56
+88            android:name="project.application.homeatz.Activities.AddAddress"
+88-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:44:13-50
+89            android:exported="false"
+89-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:45:13-37
+90            android:screenOrientation="portrait" />
+90-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:46:13-49
+91        <activity
+91-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:48:9-53:56
+92            android:name="project.application.homeatz.Map.SavedLocationActivity"
+92-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:49:13-54
+93            android:exported="false"
+93-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:50:13-37
+94            android:screenOrientation="portrait"
+94-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:51:13-49
+95            android:windowSoftInputMode="adjustPan" />
+95-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:52:13-52
+96        <activity
+96-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:54:9-59:56
+97            android:name="project.application.homeatz.Activities.WelcomeActivity"
+97-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:55:13-55
+98            android:exported="false"
+98-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:56:13-37
+99            android:screenOrientation="portrait"
+99-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:57:13-49
+100            android:windowSoftInputMode="adjustPan" />
+100-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:58:13-52
+101        <activity
+101-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:60:9-65:56
+102            android:name="project.application.homeatz.Activities.MainActivity"
+102-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:61:13-52
+103            android:exported="false"
+103-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:62:13-37
+104            android:screenOrientation="portrait"
+104-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:63:13-49
+105            android:windowSoftInputMode="adjustPan" />
+105-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:64:13-52
+106        <activity
+106-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:66:9-71:56
+107            android:name="project.application.homeatz.Map.MapsActivity"
+107-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:67:13-45
+108            android:exported="false"
+108-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:68:13-37
+109            android:screenOrientation="portrait"
+109-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:69:13-49
+110            android:windowSoftInputMode="adjustPan" />
+110-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:70:13-52
+111        <activity
+111-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:72:9-77:56
+112            android:name="project.application.homeatz.Activities.LoginActivity"
+112-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:73:13-53
+113            android:exported="false"
+113-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:74:13-37
+114            android:screenOrientation="portrait"
+114-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:75:13-49
+115            android:windowSoftInputMode="adjustResize" />
+115-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:76:13-55
+116        <activity
+116-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:78:9-83:56
+117            android:name="project.application.homeatz.Activities.VerificationActivity"
+117-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:79:13-60
+118            android:exported="false"
+118-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:80:13-37
+119            android:screenOrientation="portrait"
+119-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:81:13-49
+120            android:windowSoftInputMode="adjustPan" />
+120-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:82:13-52
+121        <activity
+121-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:84:9-94:20
+122            android:name="project.application.homeatz.Activities.SplashActivity"
+122-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:85:13-54
+123            android:exported="true"
+123-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:86:13-36
+124            android:screenOrientation="portrait" >
+124-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:87:13-49
+125            <intent-filter>
+125-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:89:13-93:29
+126                <action android:name="android.intent.action.MAIN" />
+126-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:90:17-69
+126-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:90:25-66
+127
+128                <category android:name="android.intent.category.LAUNCHER" />
+128-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:92:17-77
+128-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:92:27-74
+129            </intent-filter>
+130        </activity>
+131        <!--
+132            <meta-data
+133            android:name="com.google.android.geo.API_KEY"
+134            android:value="@string/google_maps_key" />
+135        -->
+136        <meta-data
+136-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:100:9-102:71
+137            android:name="com.google.android.geo.API_KEY"
+137-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:101:13-58
+138            android:value="AIzaSyAqC86LvxI1aJRMvmEfK1YlLDN3f5CJsHw" />
+138-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:102:13-68
+139        <!--
+140 Set custom default icon. This is used when no icon is set for incoming notification messages.
+141     See README(https://goo.gl/l4GJaQ) for more.
+142        -->
+143        <meta-data
+143-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:107:9-109:62
+144            android:name="com.google.firebase.messaging.default_notification_icon"
+144-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:108:13-83
+145            android:resource="@drawable/notification_icon" />
+145-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:109:13-59
+146        <!--
+147 Set color used with incoming notification messages. This is used when no color is set for the incoming
+148             notification message. See README(https://goo.gl/6BKBk7) for more.
+149        -->
+150        <meta-data
+150-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:114:9-116:48
+151            android:name="com.google.firebase.messaging.default_notification_color"
+151-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:115:13-84
+152            android:resource="@color/orange" />
+152-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:116:13-45
+153        <meta-data
+153-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:117:9-119:71
+154            android:name="com.google.firebase.messaging.default_notification_channel_id"
+154-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:118:13-89
+155            android:value="@string/default_notification_channel_id" />
+155-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:119:13-68
+156
+157        <service
+157-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:121:9-127:19
+158            android:name="project.application.homeatz.service.MyFirebaseMessagingService"
+158-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:122:13-63
+159            android:exported="false" >
+159-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:123:13-37
+160            <intent-filter>
+160-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:124:13-126:29
+161                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+161-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:125:17-78
+161-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:125:25-75
+162            </intent-filter>
+163        </service>
+164
+165        <activity
+165-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:16:9-19:58
+166            android:name="com.vanillaplacepicker.presentation.autocomplete.VanillaAutocompleteActivity"
+166-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:17:13-104
+167            android:theme="@style/AppTheme"
+167-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:18:13-44
+168            android:windowSoftInputMode="stateVisible" />
+168-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:19:13-55
+169        <activity
+169-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:20:9-22:47
+170            android:name="com.vanillaplacepicker.presentation.map.VanillaMapActivity"
+170-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:21:13-86
+171            android:theme="@style/AppTheme" />
+171-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:22:13-44
+172
+173        <service
+173-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:24:9-26:40
+174            android:name="com.vanillaplacepicker.service.FetchAddressIntentService"
+174-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:25:13-84
+175            android:exported="false" />
+175-->[com.github.Mindinventory:VanillaPlacePicker:0.0.7] D:\Android Project\Homeatz\caches\transforms-3\27387f49f963c7aab23a9b73fa1c954b\transformed\jetified-VanillaPlacePicker-0.0.7\AndroidManifest.xml:26:13-37
+176
+177        <activity
+177-->[com.google.android.libraries.places:places:2.6.0] D:\Android Project\Homeatz\caches\transforms-3\9a07699b526593da6d84680a617ca6f6\transformed\jetified-places-2.6.0\AndroidManifest.xml:14:9-20:20
+178            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+178-->[com.google.android.libraries.places:places:2.6.0] D:\Android Project\Homeatz\caches\transforms-3\9a07699b526593da6d84680a617ca6f6\transformed\jetified-places-2.6.0\AndroidManifest.xml:15:13-91
+179            android:exported="false"
+179-->[com.google.android.libraries.places:places:2.6.0] D:\Android Project\Homeatz\caches\transforms-3\9a07699b526593da6d84680a617ca6f6\transformed\jetified-places-2.6.0\AndroidManifest.xml:16:13-37
+180            android:label="@string/places_autocomplete_label"
+180-->[com.google.android.libraries.places:places:2.6.0] D:\Android Project\Homeatz\caches\transforms-3\9a07699b526593da6d84680a617ca6f6\transformed\jetified-places-2.6.0\AndroidManifest.xml:17:13-62
+181            android:theme="@style/PlacesAutocompleteOverlay"
+181-->[com.google.android.libraries.places:places:2.6.0] D:\Android Project\Homeatz\caches\transforms-3\9a07699b526593da6d84680a617ca6f6\transformed\jetified-places-2.6.0\AndroidManifest.xml:18:13-61
+182            android:windowSoftInputMode="adjustResize" >
+182-->[com.google.android.libraries.places:places:2.6.0] D:\Android Project\Homeatz\caches\transforms-3\9a07699b526593da6d84680a617ca6f6\transformed\jetified-places-2.6.0\AndroidManifest.xml:19:13-55
+183        </activity>
+184
+185        <receiver
+185-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:40:9-46:20
+186            android:name="com.razorpay.RzpTokenReceiver"
+186-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:41:13-57
+187            android:exported="false" >
+187-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:42:13-37
+188            <intent-filter>
+188-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:43:13-45:29
+189                <action android:name="rzp.device_token.share" />
+189-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:44:17-65
+189-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:44:25-62
+190            </intent-filter>
+191        </receiver>
+192
+193        <activity
+193-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:48:9-60:20
+194            android:name="com.razorpay.CheckoutActivity"
+194-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:49:13-57
+195            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+195-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:50:13-83
+196            android:exported="true"
+196-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:51:13-36
+197            android:theme="@style/CheckoutTheme" >
+197-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:52:13-49
+198            <intent-filter>
+198-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:53:13-59:29
+199                <action android:name="android.intent.action.MAIN" />
+199-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:90:17-69
+199-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:90:25-66
+200
+201                <data
+201-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:15:13-17:38
+202                    android:host="rzp.io"
+203                    android:scheme="io.rzp" />
+203-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:17:17-35
+204            </intent-filter>
+205        </activity>
+206
+207        <meta-data
+207-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:62:9-64:58
+208            android:name="com.razorpay.plugin.googlepay_all"
+208-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:63:13-61
+209            android:value="com.razorpay.RzpGpayMerged" /> <!-- Needs to be explicitly declared on P+ -->
+209-->[com.razorpay:checkout:1.6.21] D:\Android Project\Homeatz\caches\transforms-3\ef5656a112ac214a202e9227a3b92acd\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:64:13-55
+210        <uses-library
+210-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+211            android:name="org.apache.http.legacy"
+211-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+212            android:required="false" />
+212-->[com.google.android.gms:play-services-maps:18.0.2] D:\Android Project\Homeatz\caches\transforms-3\9920c756821ed9badc2085ed0ab9d770\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+213        <uses-library
+213-->[androidx.window:window:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\e2777eeda434ca8e263ac7504e16f98e\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+214            android:name="androidx.window.extensions"
+214-->[androidx.window:window:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\e2777eeda434ca8e263ac7504e16f98e\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+215            android:required="false" />
+215-->[androidx.window:window:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\e2777eeda434ca8e263ac7504e16f98e\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+216        <uses-library
+216-->[androidx.window:window:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\e2777eeda434ca8e263ac7504e16f98e\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+217            android:name="androidx.window.sidecar"
+217-->[androidx.window:window:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\e2777eeda434ca8e263ac7504e16f98e\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+218            android:required="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+218-->[androidx.window:window:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\e2777eeda434ca8e263ac7504e16f98e\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+219        <activity
+219-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
+220            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+220-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
+221            android:enabled="false"
+221-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
+222            android:exported="false"
+222-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
+223            android:launchMode="singleInstance"
+223-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
+224            android:process=":playcore_missing_splits_activity"
+224-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
+225            android:stateNotNeeded="true" />
+225-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
+226        <activity
+226-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
+227            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+227-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
+228            android:exported="false"
+228-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
+229            android:stateNotNeeded="true"
+229-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
+230            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+230-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
+231        <service
+231-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
+232            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+232-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
+233            android:enabled="false"
+233-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
+234            android:exported="true" >
+234-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
+235            <meta-data
+235-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
+236                android:name="com.google.android.play.core.assetpacks.versionCode"
+236-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
+237                android:value="11003" />
+237-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
+238        </service>
+239        <service
+239-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
+240            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+240-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
+241            android:enabled="false"
+241-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
+242            android:exported="false" />
+242-->[com.google.android.play:core:1.10.3] D:\Android Project\Homeatz\caches\transforms-3\543409f340145fdf6a42bebb2546d1c8\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
+243
+244        <receiver
+244-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+245            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+245-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+246            android:exported="true"
+246-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+247            android:permission="com.google.android.c2dm.permission.SEND" >
+247-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+248            <intent-filter>
+248-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+249                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+249-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+249-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+250            </intent-filter>
+251        </receiver>
+252        <!--
+253             FirebaseMessagingService performs security checks at runtime,
+254             but set to not exported to explicitly avoid allowing another app to call it.
+255        -->
+256        <service
+256-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+257            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+257-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+258            android:directBootAware="true"
+258-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+259            android:exported="false" >
+259-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+260            <intent-filter android:priority="-500" >
+260-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:124:13-126:29
+261                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+261-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:125:17-78
+261-->D:\Android Project\Homeatz\app\src\main\AndroidManifest.xml:125:25-75
+262            </intent-filter>
+263        </service>
+264        <service
+264-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:49:9-55:19
+265            android:name="com.google.firebase.components.ComponentDiscoveryService"
+265-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:50:13-84
+266            android:directBootAware="true"
+266-->[com.google.firebase:firebase-common:20.0.0] D:\Android Project\Homeatz\caches\transforms-3\9c9567b699a9bd28ba974edb2137f380\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+267            android:exported="false" >
+267-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:51:13-37
+268            <meta-data
+268-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+269                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+269-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+270                android:value="com.google.firebase.components.ComponentRegistrar" />
+270-->[com.google.firebase:firebase-messaging:22.0.0] D:\Android Project\Homeatz\caches\transforms-3\728a72576069ed9a0e56769780fb82be\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+271            <meta-data
+271-->[com.google.firebase:firebase-datatransport:18.0.0] D:\Android Project\Homeatz\caches\transforms-3\864a24a5eb6d198ce93554cd76b62ea9\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+272                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+272-->[com.google.firebase:firebase-datatransport:18.0.0] D:\Android Project\Homeatz\caches\transforms-3\864a24a5eb6d198ce93554cd76b62ea9\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+273                android:value="com.google.firebase.components.ComponentRegistrar" />
+273-->[com.google.firebase:firebase-datatransport:18.0.0] D:\Android Project\Homeatz\caches\transforms-3\864a24a5eb6d198ce93554cd76b62ea9\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+274            <meta-data
+274-->[com.google.android.gms:play-services-measurement-api:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\349f70d28fe0c5d617d2902965dcc1b3\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+275                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+275-->[com.google.android.gms:play-services-measurement-api:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\349f70d28fe0c5d617d2902965dcc1b3\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+276                android:value="com.google.firebase.components.ComponentRegistrar" />
+276-->[com.google.android.gms:play-services-measurement-api:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\349f70d28fe0c5d617d2902965dcc1b3\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+277            <meta-data
+277-->[com.google.firebase:firebase-installations:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\e97f2395ee9ba094323e35d6a77de1b3\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+278                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+278-->[com.google.firebase:firebase-installations:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\e97f2395ee9ba094323e35d6a77de1b3\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+279                android:value="com.google.firebase.components.ComponentRegistrar" />
+279-->[com.google.firebase:firebase-installations:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\e97f2395ee9ba094323e35d6a77de1b3\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+280        </service>
+281
+282        <provider
+282-->[com.squareup.picasso:picasso:2.71828] D:\Android Project\Homeatz\caches\transforms-3\7d07ff850e0cf5eb05bdc39fc9303ecf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+283            android:name="com.squareup.picasso.PicassoProvider"
+283-->[com.squareup.picasso:picasso:2.71828] D:\Android Project\Homeatz\caches\transforms-3\7d07ff850e0cf5eb05bdc39fc9303ecf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+284            android:authorities="project.application.homeatz.com.squareup.picasso"
+284-->[com.squareup.picasso:picasso:2.71828] D:\Android Project\Homeatz\caches\transforms-3\7d07ff850e0cf5eb05bdc39fc9303ecf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+285            android:exported="false" />
+285-->[com.squareup.picasso:picasso:2.71828] D:\Android Project\Homeatz\caches\transforms-3\7d07ff850e0cf5eb05bdc39fc9303ecf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+286
+287        <service
+287-->[com.google.android.datatransport:transport-backend-cct:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\4131e9c31a0f814e046129979bf61e4a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+288            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+288-->[com.google.android.datatransport:transport-backend-cct:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\4131e9c31a0f814e046129979bf61e4a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+289            android:exported="false" >
+289-->[com.google.android.datatransport:transport-backend-cct:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\4131e9c31a0f814e046129979bf61e4a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+290            <meta-data
+290-->[com.google.android.datatransport:transport-backend-cct:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\4131e9c31a0f814e046129979bf61e4a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+291                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+291-->[com.google.android.datatransport:transport-backend-cct:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\4131e9c31a0f814e046129979bf61e4a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+292                android:value="cct" />
+292-->[com.google.android.datatransport:transport-backend-cct:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\4131e9c31a0f814e046129979bf61e4a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+293        </service>
+294
+295        <provider
+295-->[com.google.firebase:firebase-common:20.0.0] D:\Android Project\Homeatz\caches\transforms-3\9c9567b699a9bd28ba974edb2137f380\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+296            android:name="com.google.firebase.provider.FirebaseInitProvider"
+296-->[com.google.firebase:firebase-common:20.0.0] D:\Android Project\Homeatz\caches\transforms-3\9c9567b699a9bd28ba974edb2137f380\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+297            android:authorities="project.application.homeatz.firebaseinitprovider"
+297-->[com.google.firebase:firebase-common:20.0.0] D:\Android Project\Homeatz\caches\transforms-3\9c9567b699a9bd28ba974edb2137f380\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+298            android:directBootAware="true"
+298-->[com.google.firebase:firebase-common:20.0.0] D:\Android Project\Homeatz\caches\transforms-3\9c9567b699a9bd28ba974edb2137f380\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+299            android:exported="false"
+299-->[com.google.firebase:firebase-common:20.0.0] D:\Android Project\Homeatz\caches\transforms-3\9c9567b699a9bd28ba974edb2137f380\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+300            android:initOrder="100" />
+300-->[com.google.firebase:firebase-common:20.0.0] D:\Android Project\Homeatz\caches\transforms-3\9c9567b699a9bd28ba974edb2137f380\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+301
+302        <activity
+302-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+303            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+303-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+304            android:excludeFromRecents="true"
+304-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+305            android:exported="false"
+305-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+306            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+306-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+307        <!--
+308            Service handling Google Sign-In user revocation. For apps that do not integrate with
+309            Google Sign-In, this service will never be started.
+310        -->
+311        <service
+311-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+312            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+312-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+313            android:exported="true"
+313-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+314            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+314-->[com.google.android.gms:play-services-auth:17.0.0] D:\Android Project\Homeatz\caches\transforms-3\1bf6640732fa9c4dbabda4c41ea0525a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+315
+316        <activity
+316-->[com.google.android.gms:play-services-base:18.0.1] D:\Android Project\Homeatz\caches\transforms-3\7a8b98f05610875c11039bbb30d6893e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+317            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+317-->[com.google.android.gms:play-services-base:18.0.1] D:\Android Project\Homeatz\caches\transforms-3\7a8b98f05610875c11039bbb30d6893e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+318            android:exported="false"
+318-->[com.google.android.gms:play-services-base:18.0.1] D:\Android Project\Homeatz\caches\transforms-3\7a8b98f05610875c11039bbb30d6893e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+319            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+319-->[com.google.android.gms:play-services-base:18.0.1] D:\Android Project\Homeatz\caches\transforms-3\7a8b98f05610875c11039bbb30d6893e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+320
+321        <receiver
+321-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+322            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+322-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+323            android:enabled="true"
+323-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+324            android:exported="false" >
+324-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+325        </receiver>
+326
+327        <service
+327-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+328            android:name="com.google.android.gms.measurement.AppMeasurementService"
+328-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+329            android:enabled="true"
+329-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+330            android:exported="false" />
+330-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+331        <service
+331-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+332            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+332-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+333            android:enabled="true"
+333-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+334            android:exported="false"
+334-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+335            android:permission="android.permission.BIND_JOB_SERVICE" />
+335-->[com.google.android.gms:play-services-measurement:19.0.0] D:\Android Project\Homeatz\caches\transforms-3\8afadf90d5623ac6717f02af27ff5913\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+336
+337        <meta-data
+337-->[com.google.android.gms:play-services-basement:18.0.0] D:\Android Project\Homeatz\caches\transforms-3\63867f5965a2cf3336fab22d0d950a08\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+338            android:name="com.google.android.gms.version"
+338-->[com.google.android.gms:play-services-basement:18.0.0] D:\Android Project\Homeatz\caches\transforms-3\63867f5965a2cf3336fab22d0d950a08\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+339            android:value="@integer/google_play_services_version" />
+339-->[com.google.android.gms:play-services-basement:18.0.0] D:\Android Project\Homeatz\caches\transforms-3\63867f5965a2cf3336fab22d0d950a08\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+340
+341        <provider
+341-->[androidx.emoji2:emoji2:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\59057a25ecc0473afd3ca5f3934217ed\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+342            android:name="androidx.startup.InitializationProvider"
+342-->[androidx.emoji2:emoji2:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\59057a25ecc0473afd3ca5f3934217ed\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+343            android:authorities="project.application.homeatz.androidx-startup"
+343-->[androidx.emoji2:emoji2:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\59057a25ecc0473afd3ca5f3934217ed\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+344            android:exported="false" >
+344-->[androidx.emoji2:emoji2:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\59057a25ecc0473afd3ca5f3934217ed\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+345            <meta-data
+345-->[androidx.emoji2:emoji2:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\59057a25ecc0473afd3ca5f3934217ed\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+346                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+346-->[androidx.emoji2:emoji2:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\59057a25ecc0473afd3ca5f3934217ed\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+347                android:value="androidx.startup" />
+347-->[androidx.emoji2:emoji2:1.0.0] D:\Android Project\Homeatz\caches\transforms-3\59057a25ecc0473afd3ca5f3934217ed\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+348            <meta-data
+348-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Android Project\Homeatz\caches\transforms-3\89179518e8921c7737692105258e53f7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+349                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+349-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Android Project\Homeatz\caches\transforms-3\89179518e8921c7737692105258e53f7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+350                android:value="androidx.startup" />
+350-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Android Project\Homeatz\caches\transforms-3\89179518e8921c7737692105258e53f7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+351        </provider>
+352
+353        <service
+353-->[com.google.android.datatransport:transport-runtime:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\64fa323f78790124b83173916022af04\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+354            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+354-->[com.google.android.datatransport:transport-runtime:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\64fa323f78790124b83173916022af04\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+355            android:exported="false"
+355-->[com.google.android.datatransport:transport-runtime:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\64fa323f78790124b83173916022af04\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+356            android:permission="android.permission.BIND_JOB_SERVICE" >
+356-->[com.google.android.datatransport:transport-runtime:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\64fa323f78790124b83173916022af04\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+357        </service>
+358
+359        <receiver
+359-->[com.google.android.datatransport:transport-runtime:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\64fa323f78790124b83173916022af04\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+360            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+360-->[com.google.android.datatransport:transport-runtime:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\64fa323f78790124b83173916022af04\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+361            android:exported="false" />
+361-->[com.google.android.datatransport:transport-runtime:3.0.0] D:\Android Project\Homeatz\caches\transforms-3\64fa323f78790124b83173916022af04\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+362    </application>
+363
+364</manifest>

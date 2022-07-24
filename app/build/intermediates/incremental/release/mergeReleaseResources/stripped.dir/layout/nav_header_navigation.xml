@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/light_gray3"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_height"
+        android:background="@color/light_orange"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:ignore="UselessParent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardCornerRadius="@dimen/_25sdp">
+            <ImageView
+                android:id="@+id/navProfileIv"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/user_icon"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription" />
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/navy_blue" />
+
+            <TextView
+                android:id="@+id/navUserNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:singleLine="true"
+                tools:text="Mr. User"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@color/navy_blue" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/homeChefLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:visibility="gone"
+        android:paddingEnd="@dimen/_12sdp">
+        <ImageView
+            android:layout_width="@dimen/nav_item_icon_hght_width"
+            android:layout_height="@dimen/nav_item_icon_hght_width"
+            android:src="@drawable/ic_homemade_shop"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="HomeChef Shop"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@color/dark_gray" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/homemadeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:paddingEnd="@dimen/_12sdp">
+        <ImageView
+            android:layout_width="@dimen/nav_item_icon_hght_width"
+            android:layout_height="@dimen/nav_item_icon_hght_width"
+            android:src="@drawable/ic_homemade_shop"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="Homemade Shop"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@color/dark_gray" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/easyMealPlanLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:paddingEnd="@dimen/_12sdp">
+        <ImageView
+            android:layout_width="@dimen/nav_item_icon_hght_width"
+            android:layout_height="@dimen/nav_item_icon_hght_width"
+            android:src="@drawable/ic_easy_meal_plan"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/_8sdp"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="Easy Meal Plans"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@color/dark_gray" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/healthDietPlanLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:paddingEnd="@dimen/_12sdp">
+        <ImageView
+            android:layout_width="@dimen/nav_item_icon_hght_width"
+            android:layout_height="@dimen/nav_item_icon_hght_width"
+            android:src="@drawable/ic_health_diet_plan"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/_8sdp"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="Health &amp; Diet Plan"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@color/dark_gray" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/customerStoriesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:paddingEnd="@dimen/_12sdp">
+        <ImageView
+            android:layout_width="@dimen/nav_item_icon_hght_width"
+            android:layout_height="@dimen/nav_item_icon_hght_width"
+            android:src="@drawable/ic_customer_stories"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/_8sdp"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="Customer Stories"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@color/dark_gray" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
